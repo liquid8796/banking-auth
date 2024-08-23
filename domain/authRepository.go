@@ -2,9 +2,10 @@ package domain
 
 import (
 	"database/sql"
-	"github.com/ashishjuyal/banking-lib/errs"
-	"github.com/ashishjuyal/banking-lib/logger"
+
 	"github.com/jmoiron/sqlx"
+	"github.com/liquid8796/banking-lib/errs"
+	"github.com/liquid8796/banking-lib/logger"
 )
 
 type AuthRepository interface {

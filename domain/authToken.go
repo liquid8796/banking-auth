@@ -1,9 +1,9 @@
 package domain
 
 import (
-	"github.com/ashishjuyal/banking-lib/errs"
-	"github.com/ashishjuyal/banking-lib/logger"
 	"github.com/dgrijalva/jwt-go"
+	"github.com/liquid8796/banking-lib/errs"
+	"github.com/liquid8796/banking-lib/logger"
 )
 
 type AuthToken struct {
